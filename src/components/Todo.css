@@ -1,0 +1,33 @@
+.edit {
+    display: none;
+}
+
+.editing .view {
+    display: none;
+}
+
+.editing .edit {
+    display: block;
+}
+
+.item {
+    width: 100%;
+    font-size: 1.25rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.btn-remove {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
